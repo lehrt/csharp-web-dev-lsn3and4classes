@@ -6,5 +6,6 @@ namespace SchoolPractice
 {
     class Course
     {
+
     }
 }

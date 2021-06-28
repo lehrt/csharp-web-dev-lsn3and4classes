@@ -21,7 +21,7 @@ namespace SchoolPractice
         }
     public void StudentInfo()
         {
-            Console.WriteLine($"Name: {this._name} (Student ID: {this._studentId}), has {this._numberOfCredits} credits, GPA is: {this._gpa}.");
+            Console.WriteLine($"Name: {this._name} (Student ID: {this._studentId}), has {this._numberOfCredits} credit(s), GPA is: {this._gpa}.");
         }
 
 
