@@ -7,9 +7,25 @@ namespace SchoolPractice
 {
     public class Student
     {
-        private string Name;
-        private int StudentId;
-        private int NumberOfCredits;
-        private double Gpa;
+        private string _name = "rese";
+        private int _studentId;
+        private int _numberOfCredits;
+        private double _gpa;
+
+    public Student (string name, int studentId, int numberOfCredits, double gpa)
+        {
+            this._name = name;
+            this._studentId = studentId;
+            this._numberOfCredits = numberOfCredits;
+            this._gpa = gpa;
+        }
+    public void StudentInfo()
+        {
+            Console.WriteLine($"Name: {this._name} (Student ID: {this._studentId}), has {this._numberOfCredits} credits, GPA is: {this._gpa}.");
+        }
+
+
+
+
     }
 }
